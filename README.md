@@ -17,6 +17,11 @@ This repository contains a comprehensive dataset for data-clumps at various leve
 
 Unlike unified datasets, this dataset is unique in its focus on data-clumps and its granularity, providing detailed data at multiple levels. This allows for a more in-depth analysis and understanding of data-clumps and their impact on software quality and maintainability.
 
+## Dataset Scope
+
+Our dataset is specifically designed to focus on the source code of the project itself, excluding external modules and packages. This means that while we strive for comprehensive data-clump detection, some data-clumps that span across external dependencies may not be included. Our primary aim is to provide a detailed analysis of data-clumps within the boundaries of the individual project, offering a focused perspective on the project's internal code structure and quality.
+
+
 ## Dataset Description
 It includes data-clumps with this [structure](https://github.com/FireboltCasters/data-clumps/blob/master/src/api/src/ignoreCoverage/DataClumpTypes.ts) at various levels. Each level provides specific insights into the occurrence and characteristics of data-clumps:
 - File Level
