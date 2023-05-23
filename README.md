@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-    <img src="https://github.com/FireboltCasters/Data-Clumps-Dataset/raw/master/public/logo.png" alt="logo" style="height:100px;"/>
+    <img src="https://github.com/FireboltCasters/Data-Clumps-Dataset/raw/main/public/logo.png" alt="logo" style="height:100px;"/>
 </p>
 
 
