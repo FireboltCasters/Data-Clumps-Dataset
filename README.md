@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-    <img src="https://github.com/FireboltCasters/data-clumps/raw/master/public/logo.png" alt="backup" style="height:100px;"/>
+    <img src="https://github.com/FireboltCasters/Data-Clumps-Dataset/raw/master/public/logo.png" alt="logo" style="height:100px;"/>
 </p>
 
 
@@ -19,6 +19,9 @@ Unlike unified datasets, this dataset is unique in its focus on data-clumps and 
 
 ## Usage
 This dataset can be used for a variety of research and practical applications including:
+
+## Data Acquisition
+Our dataset is generated using the data-clumps detection tool available at [FireboltCasters/data-clumps](https://github.com/FireboltCasters/data-clumps). This tool is based on the award-winning research paper titled `Live Code Smell Detection of Data Clumps in an Integrated Development Environment`. This paper was honored with the Best Student Paper Award and can be accessed [here](https://www.scitepress.org/Link.aspx?doi=10.5220/0011727500003464). By leveraging this cutting-edge technology, we've ensured the highest level of accuracy and reliability in our data-clumps detection process.
 
 ## Keywords
 Data-clumps, software metrics, static code analysis, data-clump prediction
