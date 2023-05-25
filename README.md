@@ -22,8 +22,10 @@ Unlike unified datasets, this dataset is unique in its focus on data-clumps and 
 Our dataset is specifically designed to focus on the source code of the project itself, excluding external modules and packages. This means that while we strive for comprehensive data-clump detection, some data-clumps that span across external dependencies may not be included. Our primary aim is to provide a detailed analysis of data-clumps within the boundaries of the individual project, offering a focused perspective on the project's internal code structure and quality.
 
 
-## Dataset Description
-It includes data-clumps with this [structure](https://github.com/FireboltCasters/data-clumps/blob/master/src/api/src/ignoreCoverage/DataClumpTypes.ts) at various levels. Each level provides specific insights into the occurrence and characteristics of data-clumps:
+## Dataset Format
+
+In our endeavor to ensure precision and standardization in reporting data clumps, we utilize the following specification: [Data-Clumps-Type-Context](https://github.com/FireboltCasters/data-clumps-type-context/).
+It provides information at different levels, each level provides specific insights into the occurrence and characteristics of data-clumps:
 - File Level
 - Class Level
 - Method Level
