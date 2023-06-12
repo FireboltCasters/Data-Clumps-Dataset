@@ -27,11 +27,11 @@ Our dataset is specifically designed to focus on the source code of the project 
 In our endeavor to ensure precision and standardization in reporting data clumps, we utilize the following specification: [Data-Clumps-Type-Context](https://github.com/FireboltCasters/data-clumps-type-context/).
 It provides information at different levels, each level provides specific insights into the occurrence and characteristics of data-clumps:
 - File Level
-- Class Level
-- Method Level
-- Field Level
-- Parameter Level
-- Code Line Level
+   - Class Level
+      - Method Level
+         - Field Level
+            - Parameter Level
+               - Code Line Level
 
 
 ## Usage
@@ -40,6 +40,10 @@ This dataset can be used for a variety of research and practical applications in
 - Studying the impact of data-clumps on software quality
 - Developing and validating models for predicting data-clumps
 - Understanding the distribution and characteristics of data-clumps at various levels of software development
+
+## Contribution
+
+Feel free to analyse your repository and upload the results using our [Contribution Guide](https://github.com/FireboltCasters/Data-Clumps-Dataset/Doc/Contribution_Guide.md).
 
 ## Data Acquisition
 Our dataset is generated using the data-clumps detection tool available at [FireboltCasters/data-clumps](https://github.com/FireboltCasters/data-clumps). This tool is based on the award-winning research paper titled `Live Code Smell Detection of Data Clumps in an Integrated Development Environment`. This paper was honored with the Best Student Paper Award and can be accessed [here](https://www.scitepress.org/Link.aspx?doi=10.5220/0011727500003464). By leveraging this cutting-edge technology, we've ensured the highest level of accuracy and reliability in our data-clumps detection process.
@@ -54,6 +58,13 @@ The dataset is publicly available for everyone. Researchers and developers are e
 ## Related Applications
 - [Data-Clumps Visualizer](https://github.com/FireboltCasters/data-clumps-visualizer)  
    For a more interactive experience with our dataset, we recommend using the Data-Clumps Visualizer. This tool allows you to upload the data-clumps files and visualize them, providing a more intuitive understanding of the data. You can access the Data-Clumps Visualizer [here](https://github.com/FireboltCasters/data-clumps-visualizer). Explore, analyze, and gain insights from our dataset in a visually engaging manner.
+- [data-clumps](https://github.com/FireboltCasters/data-clumps)
+   The detection tool used to generate this dataset
+
+## Roadmap
+
+- [ ] Scripts
+   - [ ] Add auto script support analyse projects
 
 ## License
 
